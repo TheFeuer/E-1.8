@@ -1,0 +1,59 @@
+body {
+background-image: url(snow.jpg);
+background-size: cover;
+}
+
+.header {
+    font-size: 20px;
+    padding: 20px 20px;
+    color: black;
+}
+.navigation{
+    float: left;
+    height: 100%;
+
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+
+}
+
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: black;
+}
+
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.content h1{
+
+    position: relative;
+    left: 100px;
+}
+
+.content p1{
+    font-size: 20px;
+    padding: 0px 100px;
+
+}
+
+.content p2{
+    font-size: 20px;
+    padding: 0px 100px;
+
+}
+
+
+.content img {
+  float: left;
+  padding: 0px 10px 500px 10px;
+}
